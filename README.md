@@ -15,9 +15,9 @@ ACF is required to enable the custom shortcodes/options that the skeleton html i
 ### Included 3rd Party Libraries
 Theses libraries are enqueued in ``` functions/wordpress/site-enqueue.php ``` but are commented out by default.
 
- * Slick.js
- * Backstretch
- * Fancybox
+ * Slick.js (Local)
+ * Backstretch (Local)
+ * Fancybox (Local)
  * FontAwesome  4 (_Requires a CDN ID_)
 
 
