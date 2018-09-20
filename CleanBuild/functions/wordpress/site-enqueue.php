@@ -2,7 +2,7 @@
 
 // ENQUEUE CUSTOM SCRIPTS
 function custom_scripts() {
-  wp_enqueue_script( 'jq-link', 'https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js', array(), null, true );
+  wp_enqueue_script( 'jq-link', get_stylesheet_directory_uri() . '/js/vendor/jquery.min.js', array(), null, true );
   //wp_enqueue_script( 'fa-link', 'https://use.fontawesome.com/{CDN ID}.js', array(), null, true );
   // wp_enqueue_script( 'slick-link', get_stylesheet_directory_uri() . '/js/vendor/slick.min.js', array(), null, true );
   // wp_enqueue_script( 'backstretch-script', get_stylesheet_directory_uri() . '/js/vendor/backstretch.min.js', array(), null, true );
