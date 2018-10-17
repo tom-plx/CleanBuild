@@ -388,6 +388,20 @@ span, i {
   padding: 60px 0;
 }
 
+
+// Map
+a[href^="http://maps.google.com/maps"],
+a[href^="https://maps.google.com/maps"],
+a[href^="https://www.google.com/maps"] {
+    display: none !important;
+}
+.gmnoprint:not(.gm-bundled-control) {
+    display: none;
+}
+.gm-bundled-control .gmnoprint {
+    display: block;
+}
+
 // Footer
 
 .footer {
@@ -466,8 +480,7 @@ span, i {
   }
 }
 
-// Cookie Policy styles
-
+// Cookie Policy
 #cookiePolicy {
   transition: .3s ease;
   &.hide {
@@ -506,6 +519,7 @@ span, i {
 
 #cookieTableContainer {
   overflow-x: scroll;
+  padding-left: 100px;
 }
 
 #cookieTable {
@@ -516,6 +530,7 @@ span, i {
     padding: 15px;
     text-align: center;
     vertical-align: middle;
+    color: $col-light-grey;
   }
   tr {
     td,th {
